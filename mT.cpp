@@ -30,17 +30,15 @@ istream& operator>>(istream& is,vector<T>&v)
 template<class T>
 ostream& operator<<(ostream& os,const vector<T>&v)
 {
-    os<<"[ ";
-    for(auto &i:v)os<<i<<" ";
-    os<<"]\n";
+	int len=v.size()-1;
+    for(int i=0;i<len;i++)os<<i<<" ";
+    os<<v.back();
     return os;
 }
 template<class T>
 ostream& operator<<(ostream& os,const vector<vector<T>>&v)
 {
-    os<<"[\n";
-    for(auto &i:v)os<<i;
-    os<<"]\n";
+    for(auto &i:v)os<<i<<"\n";
     return os;
 }
 string operator*(string s,int a){
@@ -58,6 +56,9 @@ void solve(){
 
 
 int main(){
-int t=1;
-while(t--)solve();
+	ios::sync_with_stdio(0);
+	cin.tie(0);
+	cout.tie(0);
+	int t=1;
+	while(t--)solve();
 }
