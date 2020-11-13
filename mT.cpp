@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
-//Author -> Ashutosh Mohanta
-//Email  -> mohantaashutosh@yahoo.com
+//Author => Ashutosh Mohanta
+//Email  => mohantaashutosh@yahoo.com
 //Template Variables
 //START
 typedef long long ll;
