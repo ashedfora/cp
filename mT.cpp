@@ -31,7 +31,7 @@ template<class T>
 ostream& operator<<(ostream& os,const vector<T>&v)
 {
 	int len=v.size()-1;
-    for(int i=0;i<len;i++)os<<i<<" ";
+    for(int i=0;i<len;i++)os<<v[i]<<" ";
     os<<v.back();
     return os;
 }
