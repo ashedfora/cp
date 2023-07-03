@@ -12,6 +12,5 @@ copy mT.cpp f.cpp
 copy mT.cpp brute.cpp
 copy mT.cpp input_generator.cpp
 copy mT.cpp test.cpp
-copy mT.py test.py
 ) else copy mT.cpp %name%.cpp
 pause

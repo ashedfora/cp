@@ -1,0 +1,4 @@
+.*.*
+!./cpp/mT.cpp
+!./cpp/clean.bat
+!./python/mT.py
