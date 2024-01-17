@@ -9,7 +9,7 @@ using namespace std;
 #define pb push_back
 #define all(x) (x).begin(), (x).end()
 #define vei(y,x) vvi((y),vi(x))
-#define vel(y,x) vvl((y),vl(x));
+#define vel(y,x) vvl((y),vl(x))
 typedef long long ll;
 typedef vector<int> vi;
 typedef vector<vi> vvi;
